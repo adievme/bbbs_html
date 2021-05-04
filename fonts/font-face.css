@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Proto';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/ProtoGrotesk/ProtoGrotesk-Light-Web.woff2) format("woff2"),
+       url(../fonts/ProtoGrotesk/ProtoGrotesk-Light-Web.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'PTRoot';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/PTRoot/PT-Root-UI_Regular.woff2) format("woff2"),
+       url(../fonts/PTRoot/PT-Root-UI_Regular.woff) format("woff");
+}
