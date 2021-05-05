@@ -1,0 +1,29 @@
+.button {
+  font-family: "Proto";
+  font-size: 15px;
+  line-height: 19px;
+  padding: 13px 20px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 50px;
+
+  margin-left: 100px;
+}
+
+.button:hover {
+  background-color: #A7A6A6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button:focus {
+  background-color: #000000;
+  color: #F3F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* наведение при нажатой кнопке */
+.button:focus:hover{
+  background-color: #2E2468;
+  color: #F3F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
