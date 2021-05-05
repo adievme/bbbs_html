@@ -1,0 +1,9 @@
+.video-film__paragraph {
+    max-width: 335px;
+    text-align: center;
+    margin: 15px auto 10px auto;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #464646;
+}

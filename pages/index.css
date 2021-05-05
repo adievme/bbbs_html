@@ -11,9 +11,23 @@
 @import url(../blocks/header/__icon/_search/header__icon_search.css);
 @import url(../blocks/header/__icon/_user/header__icon_user.css);
 @import url(../blocks/header/__icon/_burger/header__icon_burger.css);
-@import url(../blocks/header/__icon-item/header__icon-item.css);
+/*@import url(../blocks/header/__icon-item/header__icon-item.css);*/
 @import url(../blocks/header/__icon/_line/header__icon_line.css);
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button-calendar/button-calendar.css);
 @import url(../blocks/button-rubric/button-rubric.css);
+
+@import url(../blocks/text-link.css);
+@import url(../blocks/text-link__style_minimized.css);
+
+
+@import url(../blocks/video-film.css);
+@import url(../blocks/video-film__style_minimized.css);
+@import url(../blocks/video-film__image.css);
+@import url(../blocks/video-film__title.css);
+@import url(../blocks/video-film__title_minimized.css);
+@import url(../blocks/video-film__header.css);
+@import url(../blocks/video-film__image_caption_text.css);
+@import url(../blocks/video-film__paragraph.css);
+@import url(../blocks/video-film__paragraph_minimized.css);
