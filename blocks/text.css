@@ -1,0 +1,38 @@
+.heading-one {
+  font-family: "Proto";
+  font-size: 74px;
+  line-height: 80px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.heading-two {
+  font-family: "Proto";
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.heading-three {
+  font-family: "Proto";
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.number {
+  font-family: "Proto";
+  font-size: 100px;
+  line-height: 100px;
+  margin: 0;
+}
+
+.text-paragraph {
+  font-family: "PTRoot";
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+}
+
