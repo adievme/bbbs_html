@@ -1,0 +1,12 @@
+.button-rubric {
+  font-family: "PTRoot";
+  font-size: 10px;
+  line-height: 13px;
+  padding: 2px 7px;
+  color: #464646;
+  background-color: #f3f2f2;
+  border: none;
+  border-radius: 15px;
+
+  margin-left: 50px;
+}

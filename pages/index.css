@@ -13,3 +13,7 @@
 @import url(../blocks/header/__icon/_burger/header__icon_burger.css);
 @import url(../blocks/header/__icon-item/header__icon-item.css);
 @import url(../blocks/header/__icon/_line/header__icon_line.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button-calendar/button-calendar.css);
+@import url(../blocks/button-rubric/button-rubric.css);
