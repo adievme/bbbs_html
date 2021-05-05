@@ -1,0 +1,11 @@
+.header__icon_line {
+  height: 20px;
+  border-right: 0.7px solid #A7A6A6;
+  margin: 5px 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__icon_line {
+    display: none;
+  }
+}

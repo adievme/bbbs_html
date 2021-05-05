@@ -1,0 +1,12 @@
+.header__item {
+  list-style-type: none;
+  font-family: "Proto";
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 30px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+

@@ -1,0 +1,12 @@
+.header__logo {
+  height: 21px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__logo {
+    height: 15px;
+  }
+}
+
+/* при наведении мыши цвет логотипа должен меняться */
+

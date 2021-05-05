@@ -1,0 +1,22 @@
+.header {
+  max-width: 1170px;
+  height: 30px;
+  margin: 0 auto 80px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 0 117px 40px 117px;
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 0 10px 20px 10px;
+  }
+}

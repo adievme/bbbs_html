@@ -1,0 +1,8 @@
+.header__item-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__item-link:hover {
+  color: #224CFF;
+}
