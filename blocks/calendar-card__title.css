@@ -1,12 +1,10 @@
 .calendar-card__title {
+  margin: 0;
   font-family: "Proto";
   font-style: normal;
   font-weight: 300;
   font-size: 23px;
   line-height: 30px;
-  /* or 130% */
   max-width: 320px;
-  /* black */
-  margin-bottom: 50px;
   color: #000000;
 }

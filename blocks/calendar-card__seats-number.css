@@ -1,5 +1,4 @@
-.calendar-card__subtitle {
-  /* podpis */
+.calendar-card__seats-number {
   margin: 0;
   font-family: "PTRoot";
   font-style: normal;
@@ -7,9 +6,10 @@
   font-size: 14px;
   line-height: 19px;
   /* identical to box height, or 136% */
-  max-width: 320px;
-  letter-spacing: 0.2px;
-  /* dark_gray */
 
-  color: #464646;
+  letter-spacing: 0.2px;
+  margin-left: 15px;
+  /* black */
+
+  color: #000000;
 }
