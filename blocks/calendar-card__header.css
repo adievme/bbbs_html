@@ -1,7 +1,13 @@
 .calendar-card__header {
   display: grid;
   grid-template-columns: minmax(0, 320px) minmax(0, 250px);
-  grid-row-gap: 10px;
+  grid-row-gap: 5px;
   font-family: "PT Root UI";
   margin-bottom: 50px;
+}
+
+@media (min-width: 425px) {
+  .calendar-card__header {
+    padding: 5px;
+  }
 }

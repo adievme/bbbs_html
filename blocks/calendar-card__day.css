@@ -2,8 +2,8 @@
   font-family: "PTRoot";
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 12px;
+  line-height: 17px;
   /* identical to box height, or 136% */
 
   text-align: right;
@@ -12,4 +12,11 @@
   /* black */
 
   color: #000000;
+}
+
+@media (min-width: 425px) {
+  .calendar-card__day {
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
