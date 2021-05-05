@@ -1,0 +1,10 @@
+.calendar-card {
+  max-width: 290px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 30px;
+  font-family: "Proto Grotesk Web Light";
+  font-style: normal;
+}

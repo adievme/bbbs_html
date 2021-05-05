@@ -17,3 +17,6 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button-calendar/button-calendar.css);
 @import url(../blocks/button-rubric/button-rubric.css);
+@import url(../blocks/calendar-card.css);
+@import url(../blocks/calendar-card__header.css);
+@import url(../blocks/calendar-card__footer.css);
