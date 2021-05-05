@@ -1,12 +1,16 @@
 .button-calendar {
   font-family: "Proto";
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.2px;
   font-size: 15px;
   line-height: 19px;
-  padding: 13px 20px;
+  padding: 13px 20px 16px 20px;
   color: #224cff;
   border: 1px solid #224cff;
   border-radius: 50px;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .button-calendar:hover {

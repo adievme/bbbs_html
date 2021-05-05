@@ -1,0 +1,15 @@
+.calendar-card__day {
+  font-family: "PTRoot";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height, or 136% */
+
+  text-align: right;
+  letter-spacing: 0.2px;
+
+  /* black */
+
+  color: #000000;
+}

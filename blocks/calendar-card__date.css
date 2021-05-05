@@ -1,0 +1,14 @@
+.calendar-card__date {
+  font-family: "Proto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100px;
+  line-height: 100px;
+  /* identical to box height, or 100% */
+  text-align: right;
+  letter-spacing: -2px;
+
+  /* black */
+
+  color: #000000;
+}
