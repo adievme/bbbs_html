@@ -1,22 +1,23 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/font-face.css);
-@import url(../blocks/page/page.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/header/__menu/_navigation/header__menu_navigation.css);
-@import url(../blocks/header/__item/header__item.css);
-@import url(../blocks/header/__item-link/header__item-link.css);
-@import url(../blocks/header/__icon/header__icon.css);
-@import url(../blocks/header/__icon/_search/header__icon_search.css);
-@import url(../blocks/header/__icon/_user/header__icon_user.css);
-@import url(../blocks/header/__icon/_burger/header__icon_burger.css);
-/*@import url(../blocks/header/__icon-item/header__icon-item.css);*/
-@import url(../blocks/header/__icon/_line/header__icon_line.css);
+@import url(../vendor/fonts/font-face.css);
+@import url(../blocks/page.css);
 
-@import url(../blocks/button/button.css);
-@import url(../blocks/button-calendar/button-calendar.css);
-@import url(../blocks/button-rubric/button-rubric.css);
+@import url(../blocks/header.css);
+@import url(../blocks/header__icon.css);
+@import url(../blocks/header__icon_burger.css);
+@import url(../blocks/header__icon_line.css);
+@import url(../blocks/header__icon_search.css);
+@import url(../blocks/header__icon_user.css);
+@import url(../blocks/header__item-link.css);
+@import url(../blocks/header__item.css);
+@import url(../blocks/header__logo.css);
+@import url(../blocks/header__menu.css);
+@import url(../blocks/header__menu_navigation.css);
+
+
+@import url(../blocks/button-calendar.css);
+@import url(../blocks/button-rubric.css);
+@import url(../blocks/button.css);
 
 @import url(../blocks/text-link.css);
 @import url(../blocks/text-link__style_minimized.css);
