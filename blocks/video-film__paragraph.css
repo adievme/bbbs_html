@@ -1,5 +1,6 @@
 .video-film__paragraph {
-    max-width: 335px;
+    font-family: PT Root UI, sans-serif;
+    width: calc(100% - 15px * 2);
     text-align: center;
     margin: 15px auto 10px auto;
     font-size: 14px;

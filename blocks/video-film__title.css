@@ -1,4 +1,6 @@
 .video-film__title {
+    font-family: Proto, sans-serif;
+    width: calc(100% - 15px * 2);
     margin: 20px auto 0 auto;
     text-align: center;
     max-width: 340px;
