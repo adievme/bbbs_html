@@ -2,6 +2,13 @@
 @import url(../vendor/fonts/font-face.css);
 @import url(../blocks/page.css);
 
+@import url(../blocks/numbers.css);
+@import url(../blocks/title-h1.css);
+@import url(../blocks/title-h2.css);
+@import url(../blocks/title-h3.css);
+@import url(../blocks/paragraph.css);
+@import url(../blocks/caption.css);
+
 @import url(../blocks/header.css);
 @import url(../blocks/header__icon.css);
 @import url(../blocks/header__icon_burger.css);
