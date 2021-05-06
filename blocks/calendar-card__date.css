@@ -1,0 +1,22 @@
+.calendar-card__date {
+  font-family: "Proto";
+  font-style: normal;
+  font-weight: 300;
+
+  font-size: 60px;
+  line-height: 60px;
+  /* identical to box height, or 100% */
+  text-align: right;
+  letter-spacing: -2px;
+  margin: 0;
+  /* black */
+
+  color: #000000;
+}
+
+@media (min-width: 425px) {
+  .calendar-card__date {
+    font-size: 100px;
+    line-height: 100px;
+  }
+}
