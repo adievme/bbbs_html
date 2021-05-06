@@ -1,7 +1,9 @@
 .footer__social-list {
   margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   row-gap: 17px;
 }
