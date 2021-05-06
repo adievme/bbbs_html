@@ -1,0 +1,8 @@
+.book {
+  max-width: 200px;
+  max-height: 280px;
+  background-color: #FF8585;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+}

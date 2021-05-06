@@ -39,6 +39,7 @@
 @import url(../blocks/button-calendar.css);
 @import url(../blocks/button-rubric.css);
 @import url(../blocks/button.css);
+@import url(../blocks/mentor-link.css);
 
 @import url(../blocks/text-link.css);
 @import url(../blocks/text-link__style_minimized.css);
@@ -52,3 +53,15 @@
 @import url(../blocks/video-film__image_caption_text.css);
 @import url(../blocks/video-film__paragraph.css);
 @import url(../blocks/video-film__paragraph_minimized.css);
+
+
+@import url(../blocks/article.css);
+@import url(../blocks/article__link.css);
+@import url(../blocks/article-description.css);
+@import url(../blocks/article-description__caption.css);
+@import url(../blocks/article-description__container.css);
+
+@import url(../blocks/card-book.css);
+@import url(../blocks/book.css);
+@import url(../blocks/line-book.css);
+@import url(../blocks/book__caption.css);
