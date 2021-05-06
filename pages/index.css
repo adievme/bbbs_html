@@ -25,6 +25,7 @@
 @import url(../blocks/button-calendar.css);
 @import url(../blocks/button-rubric.css);
 @import url(../blocks/button.css);
+@import url(../blocks/mentor-link.css);
 
 @import url(../blocks/text-link.css);
 @import url(../blocks/text-link__style_minimized.css);
@@ -39,3 +40,6 @@
 @import url(../blocks/video-film__image_caption_text.css);
 @import url(../blocks/video-film__paragraph.css);
 @import url(../blocks/video-film__paragraph_minimized.css);
+
+@import url(../blocks/article.css);
+@import url(../blocks/article__link.css);
