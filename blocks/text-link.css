@@ -1,0 +1,11 @@
+.text-link {
+    font-family: Proto, sans-serif;
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: .2px;
+    color: #224CFF;
+    text-decoration: none;
+}
