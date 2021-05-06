@@ -43,3 +43,6 @@
 
 @import url(../blocks/article.css);
 @import url(../blocks/article__link.css);
+@import url(../blocks/article-description.css);
+@import url(../blocks/article-description__caption.css);
+@import url(../blocks/article-description__container.css);
