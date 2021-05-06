@@ -1,0 +1,8 @@
+.video-film__image_caption_text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
