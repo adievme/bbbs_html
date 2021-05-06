@@ -1,27 +1,30 @@
 .button-calendar {
   font-family: "Proto";
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.2px;
   font-size: 15px;
   line-height: 19px;
-  padding: 13px 20px;
-  color: #224CFF;
-  border: 1px solid #224CFF;
+  padding: 13px 20px 16px 20px;
+  color: #224cff;
+  border: 1px solid #224cff;
   border-radius: 50px;
-
-  margin-left: 50px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
 .button-calendar:hover {
-  background-color: #C8D1FF;
+  background-color: #c8d1ff;
 }
 
 .button-calendar:focus {
-  background-color: #224CFF;
-  color: #F3F2F2;
+  background-color: #224cff;
+  color: #f3f2f2;
   padding-bottom: 8px;
 }
 
 /* наведение при нажатой кнопке */
-.button-calendar:focus:hover{
-  background-color: #2E2468;
-  color: #F3F2F2;
+.button-calendar:focus:hover {
+  background-color: #2e2468;
+  color: #f3f2f2;
 }

@@ -1,0 +1,4 @@
+.calendar-card__seats {
+  display: flex;
+  align-items: center;
+}

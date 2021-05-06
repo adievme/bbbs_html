@@ -1,0 +1,21 @@
+.calendar-card__seats-number {
+  margin: 0;
+  font-family: "PTRoot";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height, or 136% */
+
+  letter-spacing: 0.2px;
+  margin-left: 10px;
+  /* black */
+
+  color: #000000;
+}
+
+@media (min-width: 425px) {
+  .calendar-card__seats-number {
+    margin-left: 15px;
+  }
+}

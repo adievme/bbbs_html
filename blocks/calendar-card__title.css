@@ -1,0 +1,18 @@
+.calendar-card__title {
+  margin: 0;
+  font-family: "Proto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+
+  max-width: 320px;
+  color: #000000;
+}
+
+@media (min-width: 425px) {
+  .calendar-card__subtitle {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
