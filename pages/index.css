@@ -6,6 +6,7 @@
 @import url(../blocks/button-calendar/button-calendar.css);
 @import url(../blocks/button-rubric/button-rubric.css);
 @import url(../blocks/calendar-card.css);
+@import url(../blocks/calendar-card_main.css);
 @import url(../blocks/calendar-card__header.css);
 @import url(../blocks/calendar-card__footer.css);
 @import url(../blocks/calendar-card__devider.css);
@@ -56,12 +57,23 @@
 
 
 @import url(../blocks/article.css);
+@import url(../blocks/article__title.css);
 @import url(../blocks/article__link.css);
 @import url(../blocks/article-description.css);
 @import url(../blocks/article-description__caption.css);
 @import url(../blocks/article-description__container.css);
+@import url(../blocks/article__image.css);
+@import url(../blocks/article-with-image.css);
+@import url(../blocks/article-with-image__title.css);
+@import url(../blocks/article-with-image__link.css);
 
 @import url(../blocks/card-book.css);
 @import url(../blocks/book.css);
 @import url(../blocks/line-book.css);
 @import url(../blocks/book__caption.css);
+
+/* @import url(../blocks/main-content.css);
+@import url(../blocks/story-cover.css);
+@import url(../blocks/story-cover__content.css);
+@import url(../blocks/story-cover__link.css);
+@import url(../blocks/story-cover__title.css); */
