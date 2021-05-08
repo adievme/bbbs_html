@@ -13,3 +13,9 @@
 
   color: #f3f2f2;
 }
+
+@media (min-width: 1280px) {
+  .footer__navigation-link {
+    margin: 0;
+  }
+}

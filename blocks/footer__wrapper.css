@@ -3,4 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  .footer__wrapper {
+    max-width: 1140px;
+    padding: 90px 15px 80px 15px;
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: 500px 290px 166px 156px;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: flex-start;
+  }
 }

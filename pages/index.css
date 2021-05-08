@@ -78,3 +78,7 @@
 @import url(../blocks/footer__design.css);
 @import url(../blocks/footer__development.css);
 @import url(../blocks/footer__button.css);
+@import url(../blocks/footer__navigation.css);
+@import url(../blocks/footer__social.css);
+@import url(../blocks/footer__design-link.css);
+@import url(../blocks/footer__development-link.css);

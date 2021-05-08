@@ -8,6 +8,14 @@
   letter-spacing: 0.2px;
 
   /* light_blue */
-
   color: #c8d1ff;
+}
+
+@media (min-width: 1280px) {
+  .footer__copyright {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: start;
+    grid-column: 1/3;
+  }
 }

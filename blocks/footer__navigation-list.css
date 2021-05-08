@@ -7,3 +7,12 @@
   flex-wrap: wrap;
   row-gap: 17px;
 }
+
+@media (min-width: 1280px) {
+  .footer__navigation-list {
+    flex-direction: column;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+  }
+}
