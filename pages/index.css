@@ -82,3 +82,6 @@
 @import url(../blocks/footer__social.css);
 @import url(../blocks/footer__design-link.css);
 @import url(../blocks/footer__development-link.css);
+
+@import url(../blocks/calendar-cards.css);
+@import url(../blocks/content.css);
