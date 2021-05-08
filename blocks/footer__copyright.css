@@ -1,0 +1,21 @@
+.footer__copyright {
+  font-family: "PTRoot";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.2px;
+
+  /* light_blue */
+  color: #c8d1ff;
+}
+
+@media (min-width: 1280px) {
+  .footer__copyright {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: start;
+    grid-column: 1/3;
+  }
+}
