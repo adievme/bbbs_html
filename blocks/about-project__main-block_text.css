@@ -1,0 +1,25 @@
+.about-project__main-block_text {
+    min-height: 510px;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    overflow-y: auto;
+}
+
+
+
+@media screen and (max-width: 1440px){
+    .about-project__main-block_text {
+        min-height: 310px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .about-project__main-block_text {
+        justify-content: flex-start;
+    }
+}

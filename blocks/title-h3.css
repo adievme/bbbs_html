@@ -6,3 +6,11 @@
     line-height: 50px;
     color: #000000;
 }
+
+
+@media screen and (max-width: 1440px){
+    .title-h3 {
+        font-size: 19px;
+        line-height: 23px;
+    }
+}

@@ -1,0 +1,22 @@
+.about-project__action_title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1440px){
+    .about-project__action_title {
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .about-project__action_title {
+        font-size: 15px;
+        line-height: 19px;
+    }
+}

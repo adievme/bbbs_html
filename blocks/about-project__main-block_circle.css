@@ -1,0 +1,18 @@
+.about__project__main-block_circle {
+    background-color: #F8D162;
+    border-radius: 50%;
+    position: relative;
+}
+
+@media screen and (max-width: 1440px){
+    .about__project__main-block_circle {
+        width: 370px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .about__project__main-block_circle {
+        width: 290px;
+    }
+}
