@@ -1,0 +1,18 @@
+.about-project__action_footer {
+    min-height: 160px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 50px 30px 0 30px;
+}
+
+@media screen and (max-width: 1920px) {
+    .about-project__action_footer {
+        min-height: 218px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .about-project__action_footer {
+        padding: 30px;
+        min-height: 22px;
+    }
+}

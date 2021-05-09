@@ -1,0 +1,7 @@
+.about-project__main-block-paragraph {
+    margin-top: 30px;
+}
+
+.about-project__main-block-paragraph:first-child {
+    margin-top: 0;
+}

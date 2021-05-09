@@ -2,9 +2,6 @@
 @import url(../vendor/fonts/font-face.css);
 @import url(../blocks/page.css);
 
-@import url(../blocks/button/button.css);
-@import url(../blocks/button-calendar/button-calendar.css);
-@import url(../blocks/button-rubric/button-rubric.css);
 @import url(../blocks/calendar-card.css);
 @import url(../blocks/calendar-card__header.css);
 @import url(../blocks/calendar-card__footer.css);
@@ -54,7 +51,6 @@
 @import url(../blocks/video-film__paragraph.css);
 @import url(../blocks/video-film__paragraph_minimized.css);
 
-
 @import url(../blocks/article.css);
 @import url(../blocks/article__link.css);
 @import url(../blocks/article-description.css);
@@ -65,3 +61,22 @@
 @import url(../blocks/book.css);
 @import url(../blocks/line-book.css);
 @import url(../blocks/book__caption.css);
+
+@import url(../blocks/footer.css);
+@import url(../blocks/logo.css);
+@import url(../blocks/footer__wrapper.css);
+@import url(../blocks/footer__navigation-link.css);
+@import url(../blocks/footer__devider.css);
+@import url(../blocks/footer__social-link.css);
+@import url(../blocks/footer__social-list.css);
+@import url(../blocks/footer__navigation-list.css);
+@import url(../blocks/footer__copyrights.css);
+@import url(../blocks/footer__copyright.css);
+@import url(../blocks/footer__design.css);
+@import url(../blocks/footer__development.css);
+@import url(../blocks/footer__button.css);
+@import url(../blocks/footer__navigation.css);
+@import url(../blocks/footer__social.css);
+@import url(../blocks/footer__design-link.css);
+@import url(../blocks/footer__development-link.css);
+

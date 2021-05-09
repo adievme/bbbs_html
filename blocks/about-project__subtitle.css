@@ -1,0 +1,18 @@
+.about-project__subtitle {
+    margin: 60px auto;
+    max-width: 1170px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1920px){
+    .about-project__subtitle {
+        max-width: 964px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .about-project__subtitle {
+        width: 100%;
+        margin: 30px auto;
+    }
+}

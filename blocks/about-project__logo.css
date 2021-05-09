@@ -1,0 +1,11 @@
+.about-project__logo {
+    margin: 0 auto 80px auto;
+    display: block;
+}
+
+@media screen and (max-width: 610px) {
+    .about-project__logo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
