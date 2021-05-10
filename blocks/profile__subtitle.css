@@ -1,0 +1,12 @@
+.profile__subtitle {
+    margin: 0 auto 50px auto;
+    max-width: 770px;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .profile__subtitle {
+        max-width: 300px;
+        margin: 0 auto 30px auto;
+    }
+}

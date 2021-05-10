@@ -1,0 +1,6 @@
+.profile-form__smile_type_bad_active {
+    background-image: url("../images/смайл-плохо-актив.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: .5s all;
+}

@@ -1,0 +1,12 @@
+.profile__line {
+    width: 100%;
+    height: 0.5px;
+    background-color: #464646;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 576px) {
+    .profile__line {
+        margin-bottom: 20px;
+    }
+}

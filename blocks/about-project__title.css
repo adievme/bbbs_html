@@ -1,0 +1,17 @@
+.about-project__title {
+    margin: 0 auto 50px auto;
+    max-width: 1170px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1440px){
+    .about-project__title {
+        max-width: 1030px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .about-project__title {
+        margin-bottom: 20px;
+    }
+}

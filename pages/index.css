@@ -1,10 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font-face.css);
 @import url(../blocks/page.css);
+@import url(../blocks/content.css);
 
-@import url(../blocks/button/button.css);
-@import url(../blocks/button-calendar/button-calendar.css);
-@import url(../blocks/button-rubric/button-rubric.css);
 @import url(../blocks/calendar-card.css);
 @import url(../blocks/calendar-card__header.css);
 @import url(../blocks/calendar-card__footer.css);
@@ -20,9 +18,14 @@
 @import url(../blocks/numbers.css);
 @import url(../blocks/title-h1.css);
 @import url(../blocks/title-h2.css);
+@import url(../blocks/title-h2_size_s.css);
+@import url(../blocks/title-h2_mob.css);
 @import url(../blocks/title-h3.css);
 @import url(../blocks/paragraph.css);
 @import url(../blocks/caption.css);
+@import url(../blocks/background-green.css);
+@import url(../blocks/background-red.css);
+@import url(../blocks/background-purple.css);
 
 @import url(../blocks/header.css);
 @import url(../blocks/header__icon.css);
@@ -83,5 +86,44 @@
 @import url(../blocks/footer__design-link.css);
 @import url(../blocks/footer__development-link.css);
 
-@import url(../blocks/calendar-cards.css);
-@import url(../blocks/content.css);
+@import url(../blocks/about-project__title.css);
+@import url(../blocks/about-project__subtitle.css);
+@import url(../blocks/about-project__main-block.css);
+@import url(../blocks/about-project__main-block-paragraph.css);
+@import url(../blocks/about-project__main-block_circle.css);
+@import url(../blocks/about-project__main-block_text.css);
+@import url(../blocks/about-project__main-block_title.css);
+@import url(../blocks/about-project__line.css);
+@import url(../blocks/about-project__logo.css);
+@import url(../blocks/about-project__actions.css);
+@import url(../blocks/about-project__action_title.css);
+@import url(../blocks/about-project__action_header.css);
+@import url(../blocks/about-project__action_footer.css);
+
+@import url(../blocks/profile__title.css);
+@import url(../blocks/profile__line.css);
+@import url(../blocks/profile__subtitle.css);
+@import url(../blocks/profile-form.css);
+@import url(../blocks/profile-form__fieldset.css);
+@import url(../blocks/profile-form__fieldset_type_add.css);
+@import url(../blocks/profile-form__button_type_add-image.css);
+@import url(../blocks/profile-form__image-add_title.css);
+@import url(../blocks/profile-form__fieldset_type_text.css);
+@import url(../blocks/profile-form__text.css);
+@import url(../blocks/profile-form__fieldset_text_wrapper.css);
+@import url(../blocks/profile-form__text_type_textarea.css);
+@import url(../blocks/profile-form__footer.css);
+@import url(../blocks/profile-form__footer_type_feedback.css);
+@import url(../blocks/profile-form__footer_image_smile.css);
+@import url(../blocks/profile-form__footer_type_text.css);
+@import url(../blocks/profile-form__button.css);
+@import url(../blocks/profile-form__footer_type_buttons.css);
+@import url(../blocks/profile-form__button_type_delete.css);
+@import url(../blocks/profile-form__button_type_add.css);
+@import url(../blocks/profile-form__label.css);
+@import url(../blocks/profile-form__label_type_text.css);
+@import url(../blocks/profile-form_type_example.css);
+@import url(../blocks/profile-form__smile.css);
+@import url(../blocks/profile-form__smile_type_good_active.css);
+@import url(../blocks/profile-form__smile_type_middle_active.css);
+@import url(../blocks/profile-form__smile_type_bad_active.css);

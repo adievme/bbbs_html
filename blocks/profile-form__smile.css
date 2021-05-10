@@ -1,0 +1,15 @@
+.profile-form__smile {
+    cursor: pointer;
+    transition: .5s opacity;
+}
+
+.profile-form__smile:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 576px) {
+    .profile-form__smile {
+        width: 23px;
+        height: 23px;
+    }
+}

@@ -1,25 +1,27 @@
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 15px;
+  padding: 0 75px;
 }
 
-@media (min-width: 485px) {
+@media screen and (max-width: 1440px) {
   .content {
-    padding: 0 127px;
+    padding: 0 135px;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .content {
-    padding: 0 127px;
+    padding: 0 117px;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (max-width: 720px) {
   .content {
-    padding: 0 75px;
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .content {
+    padding: 0 10px;
   }
 }
