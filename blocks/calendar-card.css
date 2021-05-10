@@ -1,11 +1,11 @@
 .calendar-card {
   max-width: 570px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   background: #ffffff;
   border-radius: 30px;
   padding: 30px 15px;
-  margin-bottom: 50px;
 }
 
 .calendar-card_state_active {

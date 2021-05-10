@@ -1,0 +1,18 @@
+.calendar-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 30px 0 50px 0;
+}
+
+@media (min-width: 465px) {
+  .calendar-cards {
+    margin: 50px 0 100px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .calendar-cards {
+    margin: 80px 0 120px 0;
+  }
+}

@@ -1,16 +1,15 @@
 .title-h3 {
-    margin: 0;
-    font-family: Proto, sans-serif;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 50px;
-    color: #000000;
+  margin: 0;
+  font-family: Proto, sans-serif;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 50px;
+  color: #000000;
 }
 
-
-@media screen and (max-width: 1440px){
-    .title-h3 {
-        font-size: 19px;
-        line-height: 23px;
-    }
+@media screen and (max-width: 1440px) {
+  .title-h3 {
+    font-size: 19px;
+    line-height: 23px;
+  }
 }
