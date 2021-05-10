@@ -1,0 +1,10 @@
+.logo {
+  max-width: 252px;
+  margin-bottom: 41px;
+}
+
+@media (min-width: 1280px) {
+  .logo {
+    max-width: 415px;
+  }
+}

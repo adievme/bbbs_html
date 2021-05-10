@@ -1,0 +1,12 @@
+.footer__devider {
+  border: 1px solid #c8d1ff;
+  width: 100%;
+  max-width: 770px;
+  margin: 21px 0;
+}
+
+@media (min-width: 1280px) {
+  .footer__devider {
+    display: none;
+  }
+}

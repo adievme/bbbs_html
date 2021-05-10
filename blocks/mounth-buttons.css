@@ -1,0 +1,9 @@
+.mounth-buttons {
+  margin-top: 20px;
+}
+
+@media (min-width: 465px) {
+  .mounth-buttons {
+    margin-top: 40px;
+  }
+}

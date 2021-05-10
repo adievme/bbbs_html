@@ -1,0 +1,21 @@
+.footer__navigation-link {
+  font-family: "Proto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-right: 15px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* background */
+
+  color: #f3f2f2;
+}
+
+@media (min-width: 1280px) {
+  .footer__navigation-link {
+    margin: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.footer__social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 17px;
+}
+
+@media (min-width: 1280px) {
+  .footer__social-list {
+    flex-direction: column;
+    grid-column: 0/3;
+    margin-top: 20px;
+    row-gap: 20px;
+  }
+}

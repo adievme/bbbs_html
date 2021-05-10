@@ -1,0 +1,11 @@
+.footer__development-link {
+  font-family: "PTRoot";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 142% */
+
+  letter-spacing: 0.2px;
+  color: #f3f2f2;
+}

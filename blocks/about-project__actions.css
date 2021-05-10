@@ -1,0 +1,32 @@
+.about-project__actions {
+    padding: 0;
+    list-style-type: none;
+    max-width: 1770px;
+    margin: 80px auto 130px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 1440px){
+    .about-project__actions {
+        margin-top: 50px;
+        justify-content: center;
+        grid-template-columns: 570px;
+        grid-template-rows: repeat(3, minmax(82px, max-content));
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-project__actions {
+        grid-template-columns: minmax(min-content, 570px);
+    }
+}
+
+@media screen and (max-width: 520px){
+    .about-project__actions {
+        margin: 50px auto;
+    }
+}
+

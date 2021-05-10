@@ -1,0 +1,22 @@
+.profile-form__text {
+    border: 0;
+    background: #F3F2F2;
+    border-radius: 30px;
+    padding: 13px 20px 16px 20px;
+    font-family: Proto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000;
+}
+
+.profile-form__text::placeholder {
+    color: #A7A6A6;
+}
+
+.profile-form__text:focus {
+    outline: 0;
+}
+
