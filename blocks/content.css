@@ -3,4 +3,23 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 15px;
+}
+
+@media (min-width: 485px) {
+  .content {
+    padding: 0 127px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content {
+    padding: 0 127px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content {
+    padding: 0 75px;
+  }
 }
