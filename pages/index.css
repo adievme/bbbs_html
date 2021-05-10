@@ -5,7 +5,7 @@
 
 @import url(../blocks/calendar-card.css);
 @import url(../blocks/calendar-card__container.css);
-@import url(../blocks/calendar-card_main.css);
+@import url(../blocks/calendar-card_width.css);
 @import url(../blocks/calendar-card__header.css);
 @import url(../blocks/calendar-card__footer.css);
 @import url(../blocks/calendar-card__devider.css);

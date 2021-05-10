@@ -14,8 +14,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .section-main-header {
-    min-height: 702px;
+    min-height: 732px;
   }
 }

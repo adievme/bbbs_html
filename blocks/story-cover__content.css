@@ -7,17 +7,9 @@
   align-items: center;
   background-color: rgba(46, 46, 46, 0.8);
   opacity: 0;
-  
-  
 }
 
 .story-cover__content:hover {
   opacity: 1;
   transition: opacity linear 0.3s;
-}
-
-@media screen and (max-width: 320px) {
-  .story-cover__content {
-
-  }
 }

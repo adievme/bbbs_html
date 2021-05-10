@@ -5,7 +5,18 @@
 
 @media screen and (max-width: 1440px) {
   .facebook-image {
-    width: calc((100% - 60px) / 3)
+    width: calc((100% - 60px) / 3)ж
   }
-  
+}
+
+@media screen and (max-width: 1024px) {
+  .facebook-image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .facebook-image {
+    width: 100%;
+  }
 }

@@ -7,8 +7,9 @@
   border-radius: 30px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .story-cover {
+    max-width: 290px;
     width: 100%;
   }
 }

@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1920px) {
   .main-content {
     margin: 0 135px;  
   }
@@ -18,7 +18,19 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 800px) {
+  .main-content {
+    margin: 0 80px;  
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-content {
+    margin: 0 30px;  
+  }
+}
+
+@media screen and (max-width: 425px) {
   .main-content {
     margin: 0 15px;
   }

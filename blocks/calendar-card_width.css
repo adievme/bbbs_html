@@ -1,0 +1,12 @@
+.calendar-card_width {
+  width: 50%;
+  margin-right: 30px;
+  max-width: 870px;
+}
+
+@media screen and (max-width: 425px) {
+  .calendar-card_width {
+    min-height: 382px;
+    width: 100%
+  }
+}

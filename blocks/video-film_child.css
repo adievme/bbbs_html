@@ -21,3 +21,13 @@
     display: none;
   } 
 }
+
+@media screen and (max-width: 768px) {
+  .video-film_child:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .video-film_child:nth-child(2) {
+    display: none;
+  } 
+}
