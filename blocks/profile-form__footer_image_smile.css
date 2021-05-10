@@ -1,0 +1,11 @@
+.profile-form__footer_image_smile {
+    width: 108px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+    .profile-form__footer_image_smile {
+        width: 89px;
+    }
+}

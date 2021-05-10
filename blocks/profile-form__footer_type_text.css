@@ -1,0 +1,15 @@
+.profile-form__footer_type_text {
+    margin-left: 15px;
+    font-family: PTRoot;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #A7A6A6;
+}
+
+@media screen and (max-width: 576px) {
+    .profile-form__footer_type_text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

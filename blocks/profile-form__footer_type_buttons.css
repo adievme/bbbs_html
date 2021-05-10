@@ -1,0 +1,19 @@
+.profile-form__footer_type_buttons {
+    display: grid;
+    grid-template-columns: 60px 112px;
+    column-gap: 20px;
+}
+
+@media screen and (max-width: 850px) {
+    .profile-form__footer_type_buttons {
+        column-gap: 0;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .profile-form__footer_type_buttons {
+        grid-template-columns: 88px 70px;
+
+    }
+}

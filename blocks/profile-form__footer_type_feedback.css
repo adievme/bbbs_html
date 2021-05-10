@@ -1,0 +1,5 @@
+.profile-form__footer_type_feedback {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

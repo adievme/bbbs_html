@@ -1,0 +1,27 @@
+.profile-form {
+    margin: 0 auto 80px auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: 1fr 700px;
+    grid-template-rows: 472px;
+}
+
+@media screen and (max-width: 1440px) {
+    .profile-form {
+        width: 100%;
+        grid-template-columns: 1fr 600px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .profile-form {
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px minmax(472px, max-content);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .profile-form {
+        grid-template-rows: 290px minmax(404px, max-content);
+    }
+}
