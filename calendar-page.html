@@ -71,6 +71,10 @@
 
       <main class="content">
         <h1 class="title-h1">Календарь</h1>
+        <div class="mounth-buttons">
+          <button class="button" type="button">Декабря</button>
+          <button class="button" type="button">Январь</button>
+        </div>
 
         <div class="calendar-cards">
           <div class="calendar-card">
@@ -347,5 +351,47 @@
         </div>
       </footer>
     </div>
+    <div class="calendar-popup-container">
+      <div class="calendar-popup">
+        <div class="calendar-card">
+          <div class="calendar-popup__close-icon"></div>
+          <div class="calendar-card__header">
+            <p class="calendar-card__subtitle caption">Волонтёры + дети</p>
+            <div class="calendar-card__day">декабрь / понедельник</div>
+            <h3 class="calendar-card__title">
+              Субботний meet up: учимся проходить интевью
+            </h3>
+            <h3 class="calendar-card__date">05</h3>
+          </div>
+          <ul class="calendar-card__list">
+            <li class="calendar-card__list-item">12:00–14:00</li>
+            <div class="calendar-card__devider"></div>
+            <li class="calendar-card__list-item">
+              Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)
+            </li>
+            <div class="calendar-card__devider"></div>
+            <li class="calendar-card__list-item">
+              Александра, +7 926 356-78-90
+            </li>
+            <div class="calendar-card__description">
+              Наконец-то наступила весна и мы пережили эту долгую зиму! И
+              возможно, что внутренних сил и ресурса сейчас не так много, а до
+              окончания учебного года ещё целых несколько месяцев. Поэтому
+              приглашаем вас на встречу нашего ресурсного клуба "Наставник PRO",
+              которую мы хотим посвятить теме поиска моральных сил, смыслов и
+              внутреннего ресурса для общения и взаимодействия с нашими
+              подопечными.
+            </div>
+          </ul>
+          <div class="calendar-card__footer">
+            <div class="calendar-card__seats">
+              <button class="button-calendar" type="button">Записаться</button>
+              <p class="calendar-card__seats-number">Осталось 5 мест</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <template id="calendar-popup"> </template>
   </body>
 </html>

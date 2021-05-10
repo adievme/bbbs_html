@@ -1,0 +1,6 @@
+.calendar-popup__close-icon {
+  background: no-repeat url("../images/close_icon.svg");
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+}

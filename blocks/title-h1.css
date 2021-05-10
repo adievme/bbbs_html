@@ -2,7 +2,14 @@
   margin: 0;
   font-family: "Proto", sans-serif;
   font-weight: normal;
-  font-size: 74px;
-  line-height: 80px;
+  font-size: 37px;
+  line-height: 39px;
   color: #000000;
+}
+
+@media (min-width: 465px) {
+  .title-h1 {
+    font-size: 74px;
+    line-height: 80px;
+  }
 }

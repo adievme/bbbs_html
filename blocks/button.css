@@ -6,24 +6,22 @@
   color: #000000;
   border: 1px solid #000000;
   border-radius: 50px;
-
-  margin-left: 100px;
 }
 
 .button:hover {
-  background-color: #A7A6A6;
+  background-color: #a7a6a6;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button:focus {
   background-color: #000000;
-  color: #F3F2F2;
+  color: #f3f2f2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* наведение при нажатой кнопке */
-.button:focus:hover{
-  background-color: #2E2468;
-  color: #F3F2F2;
+.button:focus:hover {
+  background-color: #2e2468;
+  color: #f3f2f2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
