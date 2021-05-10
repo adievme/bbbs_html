@@ -1,202 +1,307 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Личный кабинет</title>
-    <link rel="stylesheet" href="./pages/index.css">
-</head>
-<body>
-  <div class="page">
-    <header class="header">
-      <img
-              class="header__icon header__icon_burger"
-              src="./images/бургер.svg"
-              alt="бургер"
-      />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img
+          class="header__icon header__icon_burger"
+          src="./images/бургер.svg"
+          alt="бургер"
+        />
 
-      <img
-              class="header__logo"
-              src="./images/наставник.про.svg"
-              alt="логотип"
-      />
+        <img
+          class="header__logo"
+          src="./images/наставник.про.svg"
+          alt="логотип"
+        />
 
-      <ul class="header__menu header__menu_navigation">
-        <li class="header__item">
-          <a class="header__item-link" href="#" target="_blank">КАЛЕНДАРЬ</a>
-        </li>
-        <li class="header__item">
-          <a class="header__item-link" href="#" target="_blank">КУДА ПОЙТИ</a>
-        </li>
-        <li class="header__item">
-          <a class="header__item-link" href="#" target="_blank">ВОПРОСЫ</a>
-        </li>
-        <li class="header__item">
-          <a class="header__item-link" href="#" target="_blank"
-          >ЧИТАТЬ И СМОТРЕТЬ</a
+        <ul class="header__menu header__menu_navigation">
+          <li class="header__item">
+            <a class="header__item-link" href="#" target="_blank">КАЛЕНДАРЬ</a>
+          </li>
+          <li class="header__item">
+            <a class="header__item-link" href="#" target="_blank">КУДА ПОЙТИ</a>
+          </li>
+          <li class="header__item">
+            <a class="header__item-link" href="#" target="_blank">ВОПРОСЫ</a>
+          </li>
+          <li class="header__item">
+            <a class="header__item-link" href="#" target="_blank"
+              >ЧИТАТЬ И СМОТРЕТЬ</a
+            >
+          </li>
+          <li class="header__item">
+            <a class="header__item-link" href="#" target="_blank"
+              >ПРАВА ДЕТЕЙ</a
+            >
+          </li>
+          <li class="header__item">
+            <a class="header__item-link" href="#" target="_blank">ИСТОРИИ</a>
+          </li>
+        </ul>
+
+        <ul class="header__menu">
+          <li class="header__icon">
+            <img
+              class="header__icon_search"
+              src="./images/поиск.svg"
+              alt="поиск"
+            />
+          </li>
+          <li class="header__icon">
+            <div class="header__icon_line"></div>
+          </li>
+          <li class="header__icon">
+            <img
+              class="header__icon_user"
+              src="./images/личный кабинет.svg"
+              alt="личный кабинет"
+            />
+          </li>
+        </ul>
+      </header>
+      <div class="content">
+        <h2 class="profile__title title-h2_mob">
+          У вас нет записи на мероприятия
+        </h2>
+        <div class="profile__line"></div>
+        <h2 class="profile__subtitle title-h2_mob">
+          Составьте историю вашей дружбы с младшим. Эта страница доступна только
+          вам.
+        </h2>
+        <form
+          class="profile-form"
+          action="#"
+          method="post"
+          name="add-friendship-history"
+        >
+          <fieldset
+            class="profile-form__fieldset profile-form__fieldset_type_add"
           >
-        </li>
-        <li class="header__item">
-          <a class="header__item-link" href="#" target="_blank"
-          >ПРАВА ДЕТЕЙ</a
+            <button
+              class="profile-form__button profile-form__button_type_add-image"
+            >
+              <img
+                src="./images/загрузить-фото.svg"
+                alt="Загрузить фото"
+                class="profile-form__image-add"
+              />
+              <h4 class="profile-form__image-add_title">Загрузить фото</h4>
+            </button>
+          </fieldset>
+          <fieldset
+            class="profile-form__fieldset profile-form__fieldset_type_text"
           >
-        </li>
-        <li class="header__item">
-          <a class="header__item-link" href="#" target="_blank">ИСТОРИИ</a>
-        </li>
-      </ul>
-
-      <ul class="header__menu">
-        <li class="header__icon">
-          <img
-                  class="header__icon_search"
-                  src="./images/поиск.svg"
-                  alt="поиск"
-          />
-        </li>
-        <li class="header__icon">
-          <div class="header__icon_line"></div>
-        </li>
-        <li class="header__icon">
-          <img
-                  class="header__icon_user"
-                  src="./images/личный кабинет.svg"
-                  alt="личный кабинет"
-          />
-        </li>
-      </ul>
-    </header>
-    <div class="content">
-      <h2 class="profile__title title-h2_mob">У вас нет записи на мероприятия</h2>
-      <div class="profile__line"></div>
-      <h2 class="profile__subtitle title-h2_mob">Составьте историю вашей дружбы с младшим. Эта страница доступна только вам.</h2>
-      <form class="profile-form" action="#" method="post" name="add-friendship-history">
-        <fieldset class="profile-form__fieldset profile-form__fieldset_type_add">
-          <button class="profile-form__button profile-form__button_type_add-image">
-            <img src="./images/загрузить-фото.svg" alt="Загрузить фото" class="profile-form__image-add">
-            <h4 class="profile-form__image-add_title">Загрузить фото</h4>
-          </button>
-        </fieldset>
-        <fieldset class="profile-form__fieldset profile-form__fieldset_type_text">
-          <div class="profile-form__fieldset_text_wrapper">
-            <input type="text" class="profile-form__text profile-form__text_type_place" placeholder="Место встречи">
-            <input type="text" class="profile-form__text profile-form__text_type_date" placeholder="Дата __.__.____">
-          </div>
-          <textarea name="form-textarea" class="profile-form__text profile-form__text_type_textarea" placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"></textarea>
-          <div class="profile-form__footer">
-            <div class="profile-form__footer_type_feedback">
-              <div class="profile-form__footer_image_smile">
-                <img src="./images/смайл-хорошо.svg" alt="оценка хорошо" class="profile-form__smile profile-form__smile_type_good">
-                <img src="./images/смайл-средне.svg" alt="оценка средне" class="profile-form__smile profile-form__smile_type_middle">
-                <img src="./images/смайл-плохо.svg" alt="оценка плохо" class="profile-form__smile profile-form__smile_type_bad">
+            <div class="profile-form__fieldset_text_wrapper">
+              <input
+                type="text"
+                class="profile-form__text profile-form__text_type_place"
+                placeholder="Место встречи"
+              />
+              <input
+                type="text"
+                class="profile-form__text profile-form__text_type_date"
+                placeholder="Дата __.__.____"
+              />
+            </div>
+            <textarea
+              name="form-textarea"
+              class="profile-form__text profile-form__text_type_textarea"
+              placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+            ></textarea>
+            <div class="profile-form__footer">
+              <div class="profile-form__footer_type_feedback">
+                <div class="profile-form__footer_image_smile">
+                  <img
+                    src="./images/смайл-хорошо.svg"
+                    alt="оценка хорошо"
+                    class="profile-form__smile profile-form__smile_type_good"
+                  />
+                  <img
+                    src="./images/смайл-средне.svg"
+                    alt="оценка средне"
+                    class="profile-form__smile profile-form__smile_type_middle"
+                  />
+                  <img
+                    src="./images/смайл-плохо.svg"
+                    alt="оценка плохо"
+                    class="profile-form__smile profile-form__smile_type_bad"
+                  />
+                </div>
+                <p class="profile-form__footer_type_text">
+                  Оцените проведенное время
+                </p>
               </div>
-              <p class="profile-form__footer_type_text">Оцените проведенное время</p>
-            </div>
-            <div class="profile-form__footer_type_buttons">
-              <button class="profile-form__button profile-form__button_type_delete">Удалить</button>
-              <button class="profile-form__button profile-form__button_type_add">Добавить</button>
-            </div>
-          </div>
-        </fieldset>
-      </form>
-      <form class="profile-form profile-form_type_example" action="#" method="post" name="add-friendship-history">
-        <fieldset class="profile-form__fieldset profile-form__fieldset_type_add">
-          <button class="profile-form__button profile-form__button_type_add-image">
-            <img src="./images/загрузить-фото.svg" alt="Загрузить фото" class="profile-form__image-add">
-            <h4 class="profile-form__image-add_title">Загрузить фото</h4>
-          </button>
-        </fieldset>
-        <fieldset class="profile-form__fieldset profile-form__fieldset_type_text">
-          <div class="profile-form__fieldset_text_wrapper">
-            <label class="profile-form__label">
-              <input type="text" class="profile-form__text profile-form__text_type_place">
-              <p class="profile-form__label_type_text">Парк Горьково</p>
-            </label>
-            <label class="profile-form__label">
-              <input type="text" class="profile-form__text profile-form__text_type_date">
-              <p class="profile-form__label_type_text">05.12.2020</p>
-            </label>
-          </div>
-          <textarea name="form-textarea" class="profile-form__text profile-form__text_type_textarea" placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось">Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось</textarea>
-          <div class="profile-form__footer">
-            <div class="profile-form__footer_type_feedback">
-              <div class="profile-form__footer_image_smile">
-                <img src="./images/смайл-хорошо.svg" alt="оценка хорошо" class="profile-form__smile profile-form__smile_type_good profile-form__smile_type_good_active">
-                <img src="./images/смайл-средне.svg" alt="оценка средне" class="profile-form__smile profile-form__smile_type_middle">
-                <img src="./images/смайл-плохо.svg" alt="оценка плохо" class="profile-form__smile profile-form__smile_type_bad">
+              <div class="profile-form__footer_type_buttons">
+                <button
+                  class="profile-form__button profile-form__button_type_delete"
+                >
+                  Удалить
+                </button>
+                <button
+                  class="profile-form__button profile-form__button_type_add"
+                >
+                  Добавить
+                </button>
               </div>
-              <p class="profile-form__footer_type_text">Было классно</p>
             </div>
-            <div class="profile-form__footer_type_buttons">
-              <button class="profile-form__button profile-form__button_type_delete">Удалить</button>
-              <button class="profile-form__button profile-form__button_type_add">Добавить</button>
+          </fieldset>
+        </form>
+        <form
+          class="profile-form profile-form_type_example"
+          action="#"
+          method="post"
+          name="add-friendship-history"
+        >
+          <fieldset
+            class="profile-form__fieldset profile-form__fieldset_type_add"
+          >
+            <button
+              class="profile-form__button profile-form__button_type_add-image"
+            >
+              <img
+                src="./images/загрузить-фото.svg"
+                alt="Загрузить фото"
+                class="profile-form__image-add"
+              />
+              <h4 class="profile-form__image-add_title">Загрузить фото</h4>
+            </button>
+          </fieldset>
+          <fieldset
+            class="profile-form__fieldset profile-form__fieldset_type_text"
+          >
+            <div class="profile-form__fieldset_text_wrapper">
+              <label class="profile-form__label">
+                <input
+                  type="text"
+                  class="profile-form__text profile-form__text_type_place"
+                />
+                <p class="profile-form__label_type_text">Парк Горьково</p>
+              </label>
+              <label class="profile-form__label">
+                <input
+                  type="text"
+                  class="profile-form__text profile-form__text_type_date"
+                />
+                <p class="profile-form__label_type_text">05.12.2020</p>
+              </label>
             </div>
-          </div>
-        </fieldset>
-      </form>
-
-    </div>
-    <footer class="footer">
-      <div class="footer__wrapper">
-        <img class="logo" src="images/лого_СБСС.svg" alt="лого" />
-
-        <nav class="footer__navigation">
-          <ul class="footer__navigation-list">
-            <li class="footer__navigation-list-item">
-              <a class="footer__navigation-link">о проекте</a>
-            </li>
-            <li class="footer__navigation-list-item">
-              <a class="footer__navigation-link">Календарь</a>
-            </li>
-            <li class="footer__navigation-list-item">
-              <a class="footer__navigation-link">Куда пойти</a>
-            </li>
-            <li class="footer__navigation-list-item">
-              <a class="footer__navigation-link">Вопросы</a>
-            </li>
-            <li class="footer__navigation-list-item">
-              <a class="footer__navigation-link">Читать и смотреть</a>
-            </li>
-            <li class="footer__navigation-list-item">
-              <a class="footer__navigation-link">Права детей</a>
-            </li>
-            <li class="footer__navigation-list-item">
-              <a class="footer__navigation-link">Истории</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="footer__devider"></div>
-        <div class="footer__social">
-          <ul class="footer__social-list">
-            <li class="footer__social-list-item">
-              <a class="footer__social-link">Facebook</a>
-            </li>
-            <li class="footer__social-list-item">
-              <a class="footer__social-link">VKontakte</a>
-            </li>
-            <li class="footer__social-list-item">
-              <a class="footer__social-link">Instagram</a>
-            </li>
-            <li class="footer__social-list-item">
-              <a class="footer__social-link">Уoutube</a>
-            </li>
-          </ul>
-        </div>
-        <div class="button footer__button">Помочь деньгами</div>
-        <div class="footer__copyrights">
-          <div class="footer__copyright">© Старшие Братья Старшие Сестры</div>
-          <div class="footer__development">
-            Разработка – студенты
-            <a href="#" class="footer__development-link">Яндекс.Практикум</a>
-          </div>
-          <div class="footer__design">
-            Концепия и дизайн – <a href="#" class="footer__design-link">krkr.design</a>
-          </div>
-        </div>
+            <textarea
+              name="form-textarea"
+              class="profile-form__text profile-form__text_type_textarea"
+              placeholder="Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось"
+            >
+Опишите вашу встречу, какие чувства вы испытывали, что понравилось / не понравилось</textarea
+            >
+            <div class="profile-form__footer">
+              <div class="profile-form__footer_type_feedback">
+                <div class="profile-form__footer_image_smile">
+                  <img
+                    src="./images/смайл-хорошо.svg"
+                    alt="оценка хорошо"
+                    class="profile-form__smile profile-form__smile_type_good profile-form__smile_type_good_active"
+                  />
+                  <img
+                    src="./images/смайл-средне.svg"
+                    alt="оценка средне"
+                    class="profile-form__smile profile-form__smile_type_middle"
+                  />
+                  <img
+                    src="./images/смайл-плохо.svg"
+                    alt="оценка плохо"
+                    class="profile-form__smile profile-form__smile_type_bad"
+                  />
+                </div>
+                <p class="profile-form__footer_type_text">Было классно</p>
+              </div>
+              <div class="profile-form__footer_type_buttons">
+                <button
+                  class="profile-form__button profile-form__button_type_delete"
+                >
+                  Удалить
+                </button>
+                <button
+                  class="profile-form__button profile-form__button_type_add"
+                >
+                  Добавить
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
       </div>
-    </footer>
-  </div>
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <img class="logo" src="images/лого_СБСС.svg" alt="лого" />
 
-  <script src="./scripts/script.js"></script>
-</body>
+          <nav class="footer__navigation">
+            <ul class="footer__navigation-list">
+              <li class="footer__navigation-list-item">
+                <a class="footer__navigation-link" href="./about_project.html"
+                  >о проекте</a
+                >
+              </li>
+              <li class="footer__navigation-list-item">
+                <a class="footer__navigation-link" href="#">Календарь</a>
+              </li>
+              <li class="footer__navigation-list-item">
+                <a class="footer__navigation-link" href="#">Куда пойти</a>
+              </li>
+              <li class="footer__navigation-list-item">
+                <a class="footer__navigation-link" href="#">Вопросы</a>
+              </li>
+              <li class="footer__navigation-list-item">
+                <a class="footer__navigation-link" href="#"
+                  >Читать и смотреть</a
+                >
+              </li>
+              <li class="footer__navigation-list-item">
+                <a class="footer__navigation-link" href="#">Права детей</a>
+              </li>
+              <li class="footer__navigation-list-item">
+                <a class="footer__navigation-link" href="#">Истории</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__devider"></div>
+          <div class="footer__social">
+            <ul class="footer__social-list">
+              <li class="footer__social-list-item">
+                <a class="footer__social-link" href="#">Facebook</a>
+              </li>
+              <li class="footer__social-list-item">
+                <a class="footer__social-link" href="#">VKontakte</a>
+              </li>
+              <li class="footer__social-list-item">
+                <a class="footer__social-link" href="#">Instagram</a>
+              </li>
+              <li class="footer__social-list-item">
+                <a class="footer__social-link" href="#">Уoutube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="button footer__button">Помочь деньгами</div>
+          <div class="footer__copyrights">
+            <div class="footer__copyright">© Старшие Братья Старшие Сестры</div>
+            <div class="footer__development">
+              Разработка – студенты
+              <a href="#" class="footer__development-link">Яндекс.Практикум</a>
+            </div>
+            <div class="footer__design">
+              Концепия и дизайн –
+              <a href="#" class="footer__design-link">krkr.design</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
