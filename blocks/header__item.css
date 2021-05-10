@@ -1,6 +1,6 @@
 .header__item {
   list-style-type: none;
-  font-family: "Proto";
+  font-family: "Proto", sans-serif;
   font-size: 14px;
   line-height: 17px;
   margin-right: 30px;
@@ -8,5 +8,11 @@
 
 .header__item:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .header__item {
+    margin-right: 15px;
+  }
 }
 

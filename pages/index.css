@@ -30,22 +30,26 @@
 @import url(../blocks/background-green.css);
 @import url(../blocks/background-red.css);
 @import url(../blocks/background-purple.css);
-=======
 @import url(../blocks/background-green.css);
 @import url(../blocks/background-red.css);
 @import url(../blocks/background-purple.css);
 
 @import url(../blocks/header.css);
+@import url(../blocks/header_active.css);
 @import url(../blocks/header__icon.css);
 @import url(../blocks/header__icon_burger.css);
 @import url(../blocks/header__icon_line.css);
 @import url(../blocks/header__icon_search.css);
 @import url(../blocks/header__icon_user.css);
+@import url(../blocks/header__icon_user_active.css);
 @import url(../blocks/header__item-link.css);
 @import url(../blocks/header__item.css);
 @import url(../blocks/header__logo.css);
 @import url(../blocks/header__menu.css);
+@import url(../blocks/header__menu_social_mobile.css);
+@import url(../blocks/header__menu_social_mobile_active.css);
 @import url(../blocks/header__menu_navigation.css);
+@import url(../blocks/header__menu_navigation_active.css);
 
 @import url(../blocks/button-calendar.css);
 @import url(../blocks/button-rubric.css);

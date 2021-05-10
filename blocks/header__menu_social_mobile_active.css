@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px){
+    .header__menu_social_mobile_active {
+        position: absolute;
+        top: 90px;
+        right: 117px;
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header__menu_social_mobile_active {
+        position: absolute;
+        top: 90px;
+        right: 40px;
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .header__menu_social_mobile_active {
+        right: 15px;
+    }
+}
