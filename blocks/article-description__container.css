@@ -1,15 +1,14 @@
 .article-description__container {
-  overflow-y: auto;
-  max-height: 162px;
+  overflow-y: scroll;
   padding-right: 10px;
+  margin: 30px 15px 30px 30px;
+  height: 128px;
 }
 
 .article-description__container::-webkit-scrollbar {
   width: 5px;
 }
 
-
-/* Thumb */
 .article-description__container::-webkit-scrollbar-thumb {
   background: #E8E6E6;
   border-radius: 5px;

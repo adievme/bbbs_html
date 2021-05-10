@@ -6,6 +6,7 @@
 @import url(../blocks/button-calendar/button-calendar.css);
 @import url(../blocks/button-rubric/button-rubric.css);
 @import url(../blocks/calendar-card.css);
+@import url(../blocks/calendar-card__container.css);
 @import url(../blocks/calendar-card_main.css);
 @import url(../blocks/calendar-card__header.css);
 @import url(../blocks/calendar-card__footer.css);
@@ -21,9 +22,12 @@
 @import url(../blocks/numbers.css);
 @import url(../blocks/title-h1.css);
 @import url(../blocks/title-h2.css);
+@import url(../blocks/title-h2_mob.css);
 @import url(../blocks/title-h3.css);
+@import url(../blocks/title-h3_mob.css);
 @import url(../blocks/paragraph.css);
 @import url(../blocks/caption.css);
+@import url(../blocks/caption_mob.css);
 
 @import url(../blocks/header.css);
 @import url(../blocks/header__icon.css);
@@ -46,6 +50,7 @@
 @import url(../blocks/text-link__style_minimized.css);
 
 @import url(../blocks/video-film.css);
+@import url(../blocks/video-film_child.css);
 @import url(../blocks/video-film__style_minimized.css);
 @import url(../blocks/video-film__image.css);
 @import url(../blocks/video-film__title.css);
@@ -57,23 +62,49 @@
 
 
 @import url(../blocks/article.css);
+@import url(../blocks/article_theme_blue.css);
+@import url(../blocks/article_theme_yellow.css);
+@import url(../blocks/article_theme_green.css);
+@import url(../blocks/article__container.css);
 @import url(../blocks/article__title.css);
 @import url(../blocks/article__link.css);
 @import url(../blocks/article-description.css);
 @import url(../blocks/article-description__caption.css);
 @import url(../blocks/article-description__container.css);
-@import url(../blocks/article__image.css);
-@import url(../blocks/article-with-image.css);
-@import url(../blocks/article-with-image__title.css);
+@import url(../blocks/article-description-image.css);
+@import url(../blocks/article-image__image.css);
+@import url(../blocks/article-image.css);
+@import url(../blocks/article-image__container.css);
+@import url(../blocks/article-image__title.css);
 @import url(../blocks/article-with-image__link.css);
+@import url(../blocks/article-graduate.css);
+@import url(../blocks/article-graduate__container.css);
+@import url(../blocks/article-graduate__link.css);
+@import url(../blocks/article-graduate__title.css);
+@import url(../blocks/video-graduate.css);
 
 @import url(../blocks/card-book.css);
 @import url(../blocks/book.css);
 @import url(../blocks/line-book.css);
 @import url(../blocks/book__caption.css);
 
-/* @import url(../blocks/main-content.css);
+
+@import url(../blocks/section-main.css);
+@import url(../blocks/section-main-header.css);
+@import url(../blocks/section-main-image.css);
+@import url(../blocks/section-main-article.css);
+@import url(../blocks/section-main-video.css);
+@import url(../blocks/section-main_direction_column.css);
+@import url(../blocks/section-main_direction_reverse.css);
+@import url(../blocks/section-main-graduate.css);
+
+@import url(../blocks/main-content.css);
 @import url(../blocks/story-cover.css);
 @import url(../blocks/story-cover__content.css);
 @import url(../blocks/story-cover__link.css);
-@import url(../blocks/story-cover__title.css); */
+@import url(../blocks/story-cover__title.css);
+@import url(../blocks/questions.css);
+@import url(../blocks/article-question.css);
+@import url(../blocks/article-question__container.css);
+@import url(../blocks/article-question_child.css);
+@import url(../blocks/facebook-image.css);

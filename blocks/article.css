@@ -1,7 +1,5 @@
 .article {
-  max-width: 360px;
+  width: 100%;
   text-align: center;
-  background-color: #8CDD94;
   border-radius: 30px;
-  padding: 10px 30px 15px 30px;
 }

@@ -1,0 +1,12 @@
+.article-graduate__container {
+  margin: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .article-graduate__container {
+    margin: 15px;
+  }
+}

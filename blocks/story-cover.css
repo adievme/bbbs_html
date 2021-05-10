@@ -1,0 +1,14 @@
+.story-cover {
+  width: 50%;
+  background-image: url(../images/story.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .story-cover {
+    width: 100%;
+  }
+}

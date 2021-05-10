@@ -1,0 +1,19 @@
+.article__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 120px 400px 30px 400px;
+}
+
+@media screen and (max-width: 1440px) {
+  .article__container {
+    margin: 120px 100px 30px 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .article__container {
+    margin: 30px 40px 15px 40px;
+    min-height: 312px;
+  }
+}

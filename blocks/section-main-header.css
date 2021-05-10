@@ -1,0 +1,21 @@
+.section-main-header {
+  max-height: 520px
+}
+
+@media screen and (max-width: 1440px) {
+  .section-main-header {
+    max-height: 414px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-main-header {
+    max-height: 382px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section-main-header {
+    min-height: 702px;
+  }
+}

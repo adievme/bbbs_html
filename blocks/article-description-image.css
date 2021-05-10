@@ -1,0 +1,15 @@
+.article-description-image {
+  width: 35%;
+}
+
+@media screen and (max-width: 1440px) {
+  .article-description-image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .article-description-image {
+    width: 100%;
+  }
+}

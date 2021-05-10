@@ -1,0 +1,21 @@
+.section-main-graduate {
+  max-height: 675px;
+}
+
+@media screen and (max-width: 1440px) {
+  .section-main-graduate {
+    max-height: 451px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-main-graduate {
+    max-height: 585px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section-main-graduate {
+    max-height: 312px;
+  }
+}

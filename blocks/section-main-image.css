@@ -1,0 +1,9 @@
+.section-main-image {
+  max-height: 629px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-main-image {
+    max-height: 725px;
+  }
+}
