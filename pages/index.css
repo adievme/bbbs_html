@@ -27,7 +27,9 @@
 @import url(../blocks/paragraph.css);
 @import url(../blocks/caption.css);
 @import url(../blocks/caption_mob.css);
-
+@import url(../blocks/background-green.css);
+@import url(../blocks/background-red.css);
+@import url(../blocks/background-purple.css);
 @import url(../blocks/header.css);
 @import url(../blocks/header__icon.css);
 @import url(../blocks/header__icon_burger.css);
@@ -107,7 +109,6 @@
 @import url(../blocks/article-question__container.css);
 @import url(../blocks/article-question_child.css);
 @import url(../blocks/facebook-image.css);
-
 @import url(../blocks/footer.css);
 @import url(../blocks/logo.css);
 @import url(../blocks/footer__wrapper.css);
