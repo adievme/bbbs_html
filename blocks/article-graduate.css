@@ -1,0 +1,16 @@
+.article-graduate {
+  width: 30%;
+}
+
+@media screen and (max-width: 1440px) {
+  .article-graduate {
+    width: calc((100% - 60px) / 3)
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .article-graduate {
+    border-radius: 0 0 30px 30px;
+    width: 100%;
+  }
+}

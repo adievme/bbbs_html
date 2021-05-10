@@ -1,0 +1,23 @@
+.video-film_child {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  .video-film_child:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .video-film_child:nth-child(4) {
+    display: none;
+  } 
+}
+
+@media screen and (max-width: 1024px) {
+  .video-film_child:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .video-film_child:nth-child(3) {
+    display: none;
+  } 
+}

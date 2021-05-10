@@ -1,0 +1,7 @@
+.article-image__image {
+  width: 100%;
+  max-height: 394px;
+  border-radius: 15px;
+  margin: 40px 0 15px 0;
+  object-fit: cover;
+}

@@ -1,0 +1,16 @@
+.article-image {
+  width: 65%;
+}
+
+@media screen and (max-width: 1440px) {
+  .article-image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .article-image {
+    width: 100%;
+    max-height: 537px;
+  }
+}

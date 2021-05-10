@@ -1,0 +1,5 @@
+@media  screen and (max-width: 1024px) {
+  .section-main_direction_column {
+    flex-direction: column;
+  } 
+}

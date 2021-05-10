@@ -1,0 +1,9 @@
+.section-main-article {
+  max-height: 490px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-main-article {
+    min-height: 312px;
+  }
+}
