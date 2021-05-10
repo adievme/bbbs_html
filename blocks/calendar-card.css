@@ -1,4 +1,6 @@
 .calendar-card {
+  max-width: 570px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   background: #ffffff;
