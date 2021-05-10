@@ -1,0 +1,26 @@
+.profile-form__button_type_add {
+    padding: 13px 20px 16px 20px;
+    border: 1px solid #A7A6A6;
+    font-family: Proto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #A7A6A6;
+    border-radius: 100px;
+    transition: .5s all;
+}
+
+.profile-form__button_type_add:hover {
+    background-color: #464646;
+    color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    .profile-form__button_type_add {
+        padding: 11px 15px;
+        grid-row: 1 / 2;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

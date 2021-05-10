@@ -1,0 +1,13 @@
+.profile-form__footer {
+    display: grid;
+    grid-template-columns: minmax(min-content, 315px) 190px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px){
+    .profile-form__footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 50px);
+    }
+}

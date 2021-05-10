@@ -1,0 +1,12 @@
+.profile-form__label_type_text {
+    margin: 0;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    font-family: Proto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}

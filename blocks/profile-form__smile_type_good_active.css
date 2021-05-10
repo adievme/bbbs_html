@@ -1,0 +1,6 @@
+.profile-form__smile_type_good_active {
+    background-image: url("../images/смайл-хорошо-актив.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: .5s all;
+}

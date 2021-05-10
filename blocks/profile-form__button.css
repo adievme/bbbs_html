@@ -1,0 +1,9 @@
+.profile-form__button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.profile-form__button:focus {
+    outline: 0;
+}

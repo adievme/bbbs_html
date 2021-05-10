@@ -1,0 +1,16 @@
+.title-h2_mob {
+    font-family: Proto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+@media screen and (max-width: 576px){
+    .title-h2_mob {
+        font-size: 19px;
+        line-height: 23px;
+    }
+}

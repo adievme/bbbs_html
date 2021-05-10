@@ -1,0 +1,10 @@
+.profile-form__text_type_textarea {
+    width: calc(100% - 40px);
+    min-height: 257px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.profile-form__text_type_textarea::placeholder {
+    position: absolute;
+}
